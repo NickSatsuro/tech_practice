@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+.git
+.gitignore
+chroma_data/
+venv/
+.poetry_cache/
+*.md
+texts/

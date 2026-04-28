@@ -1,0 +1,14 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Poetry
+poetry.lock
+
+# Virtual env
+.venv/
+
+./chroma_data

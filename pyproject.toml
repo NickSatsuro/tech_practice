@@ -1,0 +1,21 @@
+[project]
+name = "tech-practice"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nick Satsuro",email = "satsurono@yandex.ru"}
+]
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "langchain (>=1.2.15,<2.0.0)",
+    "langchain-openai (>=1.2.0,<2.0.0)",
+    "chromadb (>=1.5.8,<2.0.0)",
+    "uuid (>=1.30,<2.0)",
+    "pathlib (>=1.0.1,<2.0.0)",
+    "python-telegram-bot (>=22.7,<23.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
