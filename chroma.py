@@ -52,7 +52,7 @@ def index_documents(texts_directory: str = None):
 
 def query_documents(question: str, n_results: int = None):
     if n_results is None:
-        n_results = int(os.getenv("N_RESULTS", "3"))
+        n_results = int(os.getenv("N_RESULTS", "5"))
     collection = get_collection()
     results = collection.query(query_texts=[question], n_results=n_results)
     return results["documents"][0] if results["documents"] else []
