@@ -1,5 +1,5 @@
 import uuid
-from typing import List, Tuple, Dict, Optional
+from typing import List, Tuple, Dict
 
 class DialogManager:
     def __init__(self):
