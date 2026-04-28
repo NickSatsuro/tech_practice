@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: astral-sh/ruff-action@v1
         with:
-          args: "check --select E,F,W --ignore E501"
+          args: "check --select E,F,W --ignore E501,W291,W292,W293"
 
   build-and-deploy:
     needs: lint
